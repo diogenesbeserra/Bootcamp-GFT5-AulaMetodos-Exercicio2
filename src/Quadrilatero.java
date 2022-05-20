@@ -1,11 +1,11 @@
 public class Quadrilatero {
-    public static float Area(float lado){    
-        return lado*lado;
+    public static void Area(float lado){    
+        System.out.println("Área do quadradro: " + (lado*lado));
     }
-    public static float Area(float largura, float altura ){    
-        return (largura * altura);
+    public static void Area(float largura, float altura ){    
+        System.out.println("Área do retângulo: " + (largura * altura));
     }
-    public static float Area(float ladoMaior, float ladoMenor, float altura){    
-        return ((ladoMaior+ladoMenor)*altura)/2;
+    public static void Area(float ladoMaior, float ladoMenor, float altura){    
+        System.out.println("Área do trapézio: " + ((ladoMaior+ladoMenor)*altura)/2);
     }    
 }
